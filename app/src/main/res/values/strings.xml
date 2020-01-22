@@ -2,9 +2,8 @@
     <string name="app_name">Scan, Copy and Recognize</string>
     <string name="job_success">Job Success</string>
     <string name="ui_ux_designer">UI/UX Designer</string>
-    <string name="my_desc">I\'m a Program Manager and Full Stack Software Developer who loves supporting aspiring Software Developers. I was part of the Andela team that supported 60,000+ Scholars in the Google Africa Developer Scholarship across Africa. I\'d love to combine my passion for Program management with my software development skills to continue supporting people.
-Most of the projects done can be found in my Github profile https://github.com/esidem and my personal blog http://techdepo.com.ng .
-My technical skills includes: Java, XML, Android, Material Design, Firebase, SQLile, JSON,Google App Engine, ROOM. </string>
+    <string name="my_desc">I\'m a student of University of Uyo, Studying Computer Engineering. Engineering faculty.
+    </string>
     <string name="about_me">About Me</string>
     <string name="contact">Contact</string>
     <string name="skills">Skills</string>
@@ -12,17 +11,17 @@ My technical skills includes: Java, XML, Android, Material Design, Firebase, SQL
     <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
     <string name="point_the_camera_to_your_image">Point the camera to your image</string>
     <string name="processed_text_here">Processed text here!!</string>
-    <string name="sam_esidem">Sam Esidem</string>
-    <string name="android_developer">Android Developer</string>
+    <string name="hilary_idara">Hilary, Idaraobong Oscar</string>
     <string name="developer_s_info">Developer\'s Info</string>
-    <string name="_2348061304970">2348061304970</string>
-    <string name="samesidem_gmail_com">samesidem@gmail.com</string>
+    <string name="developer">Android Developer</string>
+    <string name="_2348061304970">2349026698545</string>
+    <string name="hilary_gmail_com">idaraobonghilary@gmail.com</string>
     <string name="uyo_nigeria">Uyo, Nigeria</string>
-    <string name="android_developer">Android Developer</string>
-    <string name="program_manager">Program Manager</string>
-    <string name="community_builder">Community Builder</string>
-    <string name="photographer">Photographer</string>
-    <string name="esidemsam">\@Esidemsam</string>
-    <string name="esidem">\@Esidem</string>
+    <string name="program_manager">Setellite dealer</string>
+    <string name="community_builder">Installation</string>
+    <string name="repairs">Repair and Maintenance/Troubleshooting</string>
+    <string name="hilary">\@Hilary</string>
+    <string name="idaraHilary">\@IdaraobongHilary</string>
+    <string name="computer_engineering">Computer Engineering</string>
 
 </resources>

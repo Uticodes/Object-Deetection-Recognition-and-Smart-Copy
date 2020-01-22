@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ImageRecognition::class.java))
         }
 
-        rate.setOnClickListener {
-            rateApp()
-        }
+//        rate.setOnClickListener {
+//            rateApp()
+//        }
 
         dev.setOnClickListener {
 
@@ -59,8 +59,8 @@ try
 startActivity(goToMarket)
 }
 catch (e:ActivityNotFoundException) {
-startActivity(Intent(Intent.ACTION_VIEW,
-Uri.parse("http://play.google.com/store/apps/details?id=" + this.packageName)))
+/*startActivity(Intent(Intent.ACTION_VIEW,
+Uri.parse("http://play.google.com/store/apps/details?id=" + this.packageName)))*/
 }
 
 }

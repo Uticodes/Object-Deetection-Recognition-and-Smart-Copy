@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:fillViewport="true"
-    android:background="@color/grey"
+    android:background="@color/blue"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -82,49 +82,59 @@
        />
    </androidx.cardview.widget.CardView>
 
-   <androidx.cardview.widget.CardView
-       android:layout_width="150dp"
-       android:layout_height="150dp"
-       android:id="@+id/rate_card"
-       android:layout_marginTop="16dp"
-       android:layout_marginEnd="16dp"
-       android:layout_marginRight="16dp"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.642"
-       app:layout_constraintTop_toBottomOf="@id/copy_card"
-       app:layout_constraintVertical_bias="0.0"
-       app:cardCornerRadius="6dp"
-       app:cardElevation="4dp">
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/rate_card"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:layout_marginRight="24dp"-->
+<!--        app:cardCornerRadius="6dp"-->
+<!--        app:cardElevation="4dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        tools:layout_editor_absoluteY="562dp">-->
 
-   <ImageView
-       android:id="@+id/rate"
-       android:layout_width="150dp"
-       android:layout_height="150dp"
-       android:src="@drawable/rate"
-       android:scaleType="centerCrop"
-        />
-   </androidx.cardview.widget.CardView>
-   <androidx.cardview.widget.CardView
-       android:layout_width="150dp"
-       android:layout_height="150dp"
-       android:id="@+id/dev_card"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/recognize_card"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintVertical_bias="0.0"
-       android:layout_marginTop="16dp"
-       android:layout_marginEnd="16dp"
-       android:layout_marginRight="16dp"
-       app:cardCornerRadius="6dp"
-       app:cardElevation="4dp">
-   <ImageView
-       android:id="@+id/dev"
-       android:layout_width="150dp"
-       android:layout_height="150dp"
-       android:src="@drawable/dev"
-       android:scaleType="centerCrop"
-       />
-   </androidx.cardview.widget.CardView>
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dev_card"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copy_card">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="IDYBROSTV.com"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dev"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dev" />
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/rate"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/rate"-->
+<!--        tools:layout_editor_absoluteX="59dp"-->
+<!--        tools:layout_editor_absoluteY="551dp" />-->
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
